@@ -38,6 +38,10 @@
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>2.5</version>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changelog-plugin</artifactId>
+			</plugin>
 		</plugins>
 	</reporting>
 
@@ -69,4 +73,9 @@
 			<version>1.6.1</version>
 		</dependency>
 	</dependencies>
+
+	<scm>
+		<connection>scm:git:git://github.com/Nefael/MavenTests1.git</connection>
+		<url>https://github.com/Nefael/MavenTests1.git</url>
+	</scm>
 </project>
